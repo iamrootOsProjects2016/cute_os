@@ -49,6 +49,7 @@ void kmain(void) {
 
 	uart_puts("IAMROOT OS PROJECT 2016!!\n");
 	uart_puts("S5PC210 MMU Enable Verison!!\n");
+	uart_puts("Chapter 5 - SWI\n");
 
 	pc = get_pc();
 	sp = get_sp();
